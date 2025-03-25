@@ -1,0 +1,506 @@
+.header-top {
+  font-size: 0px;
+  height: 60px;
+  background: rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.header-contacts {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-left: -1px;
+  font-size: 10px;
+  line-height: 20px;
+  color: rgb(136, 136, 136);
+  text-transform: uppercase;
+  position: relative;
+  padding: 20px 25px;
+}
+
+.header-top b {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.header-contacts>a {
+  color: rgb(204, 204, 204);
+}
+
+.header-top a:hover,
+.header-top a:hover .fa,
+.header-top a:hover b {
+  color: rgb(0, 155, 223);
+}
+
+header .logo img {
+  z-index: 3;
+  position: relative;
+  /* width: 121px; */
+  width: 161px;
+  height: 50px;
+}
+
+
+/* hover button style  start */
+
+
+.buttons-hover-gl {
+  display: flex;
+}
+
+.buttons-hover-gl button {
+  padding: 0 25px;
+  border-radius: 4px;
+  min-width: 140px;
+  height: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  position: relative;
+  overflow: hidden;
+  border: solid 1px #69cec2;
+  cursor: pointer;
+}
+
+.buttons-hover-gl button:after,
+.buttons-hover-gl button:before {
+  width: 0%;
+  height: 0%;
+  content: "";
+  position: absolute;
+  border-radius: 100%;
+}
+
+.buttons-hover-gl button:after {
+  transition: all 0.5s ease;
+  background-color: white;
+}
+
+.buttons-hover-gl button:before {
+  transition: all 0.5s ease-out;
+  background: #7de1c2;
+}
+
+.buttons-hover-gl button span {
+  z-index: 1;
+  transition: all 0.3s ease-out;
+}
+
+.buttons-hover-gl button.cta-01 {
+  background: linear-gradient(90deg, #69cec2 0%, #41bbac 100%);
+  color: white;
+}
+
+.buttons-hover-gl button.cta-02 {
+  background-color: transparent;
+  color: #69cec2;
+}
+
+.buttons-hover-gl button.cta-02:after {
+  background: linear-gradient(90deg, #69cec2 0%, #41bbac 100%);
+}
+
+.buttons-hover-gl button:hover.cta-01 {
+  color: #69cec2;
+}
+
+.buttons-hover-gl button:hover.cta-02 {
+  color: white;
+}
+
+.buttons-hover-gl button:hover:after,
+.buttons-hover-gl button:hover:before {
+  width: 300px;
+  height: 200px;
+  border-radius: 4px;
+}
+
+.buttons-hover-gl button:hover:after {
+  transition: all 0.7s ease-in;
+}
+
+.buttons-hover-gl button:hover:before {
+  transition: all 0.5s ease-in;
+}
+
+
+/* hover button style end  */
+
+/* 01 - slider animation  */
+/* gl -  global */
+.gl-dynamic-slider {
+  z-index: 6;
+  font-size: 28px;
+  color: #fff;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.gl-dynamic-slider-heading {
+  z-index: 6;
+  font-size: 140px;
+  color: #fff;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.gl-dynami-font-sz {
+
+  font-size: 20px;
+
+
+}
+
+.gl-dynamic-slider-price{
+z-index: 6;
+font-size:60px;
+color:#fff;
+text-transform:uppercase;
+white-space: nowrap;
+
+}
+.custom-card-btn{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 10px;
+}
+
+/* price  */
+.price {
+height: 36px;
+position: relative;
+overflow: hidden;
+}
+.price .simple-article {
+line-height: 18px;
+}
+.simple-article.size-4 {
+font-size: 16px;
+line-height: 24px;
+}
+.simple-article {
+color: rgb(136, 136, 136);
+}.line-through {
+display: inline-block;
+position: relative;
+padding: 0px 5px;
+}
+.line-through::after {
+position: absolute;
+width: 100%;
+height: 1px;
+left: 0px;
+top: 50%;
+content: "";
+background: currentcolor;
+}
+.custom-sky{
+color: #009bdf;
+}
+.simple-article{
+color: #888 !important;
+margin-top: 5px !important;
+}
+
+
+.margin-B30 {
+margin-bottom: 30px;
+}
+.single-line-form {
+position: relative;
+}
+.simple-input {
+background: #fff;
+}
+.simple-input, .SumoSelect > .CaptionCont {
+font-size: 14px;
+color: #555;
+height: 50px !important;
+line-height: 48px;
+padding: 0 30px !important;
+width: 100% !important;
+border: 1px #eee solid !important;
+border-radius: 26px !important;
+-webkit-border-radius: 26px !important;
+transition: all .15s !important;
+-webkit-transition: all .15s;
+}
+input, textarea, select {
+font-weight: 400;
+-webkit-appearance: none;
+appearance: none;
+border-radius: 0;
+background: none;
+border: none;
+margin: 0;
+width: 100%;
+font-family: 'Questrial', sans-serif;
+}
+.error-message {
+display: none;
+text-align: left;
+margin-left: 30px;
+margin-top: 5px;
+color: #ff1300;
+}
+.submit-btn input {
+background: #009bdf;
+width: auto;
+padding: 10px 20px;
+border-radius: 50px;
+color: #fff;
+}
+input, textarea, select {
+font-weight: 400;
+-webkit-appearance: none;
+appearance: none;
+border-radius: 0;
+background: none;
+border: none;
+margin: 0;
+width: 100%;
+font-family: 'Questrial', sans-serif;
+}
+.text-center {
+text-align: center;
+}
+.cell-view.simple-banner-height {
+height: 600px;
+}
+.margin-top-90{
+margin-top: 90px;
+}
+
+
+.scroll {
+display: none;
+}
+
+@media screen and (max-width:768px) {
+
+.nav-right {
+display: none;
+}
+
+.container.mbb-menu {
+display: flex;
+}
+.header-top {
+text-align: right;
+}
+header .navbar li.active a:before {
+width: 100%;
+margin: 5px auto;
+
+}
+header .navbar li a:before {
+margin: 5px auto;
+}
+.margin-bottom-90{
+margin-top: 90px;
+}
+}
+
+/* form page  */
+
+.pop{
+width: 50%;
+margin: auto;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 20px;
+margin-top: 100px;
+color: white;
+position: relative;
+}
+
+#formpopup{
+background: black;
+opacity: 1;
+
+position: fixed;
+top: 0;
+left: 0;
+z-index: 999999;
+width: 100%;
+height: 100%;
+display: none;
+}
+span.close-btn-form {
+position: absolute;
+top: -20px;
+right: 0px;
+font-size: 70px;
+cursor: pointer;
+opacity: 1;
+padding:10px 20px;
+}
+
+span.close-btn-form:hover {
+opacity: 0.8;
+}
+
+ /* Button to Open Modals */
+ .open-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+/* Modal Background */
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s ease, visibility 0.4s ease;
+}
+
+/* Modal Content Box */
+.modal-content {
+    background: white;
+    padding: 20px;
+    width: 550px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    transform: translateY(-30px);
+    transition: transform 0.4s ease;
+    margin: auto;
+    margin-top: 100px;
+}
+
+/* Show Modal Animation */
+.modal.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal.show .modal-content {
+    transform: translateY(0);
+}
+
+/* Close Button */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #555;
+}
+
+.close-btn:hover {
+    color: black;
+}
+
+/* Form Styling */
+.modal-content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-btn, .register-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.login-btn:hover, .register-btn:hover {
+    background-color: #0056b3;
+}
+
+.forgot-password {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* Privacy Policy Checkbox */
+.privacy-policy {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.privacy-policy input {
+    margin-right: 10px;
+}
+
+
+/************************* about us page css ********** */
+
+  .abt-banner{
+ 
+  background:url(images/about/aboutus-banner.jpg) center center no-repeat;
+  }
+  ul.benefits-tickbox li:before {
+    content: "";
+    width: 17px;
+    height: 13px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(https://visionretail.resulticks.net/img/icon-20.png);
+    position: relative;
+    margin-right: 12px;
+}
+.benefits-tickbox>li{
+  margin-bottom: 10px;
+}
+
+
+/* nav bar underline remove for mobile device  */
+@media screen and (max-width: 768px) {
+  header .navbar li.active a:before {
+      width: 0px;
+      /* margin: 5px auto; */
+  }
+}
